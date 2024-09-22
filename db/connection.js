@@ -6,13 +6,13 @@ const db = new Sequelize({
     storage: path.join(__dirname, 'db.sqlite'),
 });
 
-db.authenticate()
-    .then(() => {
-        console.log('Connection has been established successfully.');
-    })
-    .catch(err => {
-        console.error('Unable to connect to the database:', err);
-    });
+// db.authenticate()
+    // .then(() => {
+    //     console.log('Connection has been established successfully.');
+    // })
+    // .catch(err => {
+    //     console.error('Unable to connect to the database:', err);
+    // });
 
 
 
